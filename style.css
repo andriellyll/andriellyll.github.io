@@ -1,23 +1,101 @@
-.section {
-    height: 100vh;
-    padding: 20px
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Trebuchet MS, sans-serif, 'Courier New', Courier, monospace;
+    text-shadow: 1px 1px 1px #111111; 
 }
-
-body {
-    color: white; 
-    background: gray; font-size: 30px;
-    overflow: auto;
-}
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
-}
-
 header {
+    height: 80px;
+    padding-top: 25px;
     font-size: 30px;
-    font-family: 'FreeMono, monospace';
+    background-color: #C5C1C0;
+    /*background-image: -moz-linear-gradient(gray, white);
+    background-image: -webkit-linear-gradient(gray, white);*/    
+}
+body{
+    /*background-color: rgba(0, 0, 0, 0.40);*/
+    background-color: #C5C1C0;
+    color: #0A1612;
+    /*background-image: url('caminho');   background-size: 100%; */
+}
+/*text-shadow: 1 px 1 px 1 px #111111;
+    parametros: distancia horizontal, distancia vertical, dispersao e cor da sombra
+background-color: rgba(0 0 0 0.5); ultimo parametro: transparencia
+combinacao de seletores: #divl_esquerda a {}
+sobreposicao: hover
+#menu a:hover{}
+background-image: -moz-linear-gradient(green, red); mozila 
+background-image: -webkit-linear-gradient(green, red); chrome e safari
+background-image: -o-linear-gradient(green, red); opera
+border-radius
+box-shadow
+-webkit-transition: 0.5s;
+@font-face
+*/
+.container{
+    width: 900px;
+    margin: auto;
+}
+
+div {
+    margin-top: 25px;
+    font-size: 30px;
+    margin-top: 40px;
+    padding-left: 20px;
     text-align: center;
+}
+
+#div_direita{
+    /*border:solid;*/
+    width: 60%;
+    float: right;
+    min-height: 400px;
+}
+
+#div_esquerda{
+    /*border:solid;*/
+    clear: both;
+    width: 30%;
+    float: left;
+    min-height: 400px;
+}
+
+#nome{
+    width: 45%;
+    float: left;
+    color: black;
+    padding: 0px 0px 10px 40px;
+}
+
+#icones{
+    width: 30%;
+    float: right;
+    padding: 0px 0px 10px 100px;
+    margin: 0;
+}
+
+#icones img{
+    padding: 10px;
+    opacity: 0.7;
+}
+
+a{
+    text-decoration: none;
+}
+
+#div1{
+    background-color: #1A2930;
+    width: 50%;
+    float: left;
+    min-height: 400px;
+    padding-top: 30px;
+    color: white;
+}
+#div2{
+    width: 47%;
+    float: right;
+    background-color: #F7CE3E;
+    min-height: 400px;
+    padding-top: 30px;
+    color: white;
 }
