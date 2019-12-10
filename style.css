@@ -38,7 +38,6 @@ box-shadow
 }
 
 div {
-    margin-top: 25px;
     font-size: 30px;
     margin-top: 40px;
     padding-left: 20px;
@@ -90,12 +89,23 @@ a{
     min-height: 400px;
     padding-top: 30px;
     color: white;
+    margin: 0;
+    padding-left: 0;
 }
 #div2{
-    width: 47%;
+    width: 50%;
     float: right;
     background-color: #F7CE3E;
     min-height: 400px;
     padding-top: 30px;
     color: white;
+    margin: 0;
+    padding-left: 0;
+}
+
+.container2{
+    clear: both;
+    width: 100%;
+    margin: 0;
+    padding: 0;   
 }
